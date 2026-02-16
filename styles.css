@@ -1,9 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 :root {
-	--primary-color: #c7a17a;
-	--background-color: #f9f5f0;
-	--dark-color: #151515;
+	/* === COLORES PRINCIPALES === */
+	--primary-color: #C3472C;        /* Rojo óxido principal */
+	--primary-dark: #A83222;         /* Hover / activo */
+	
+	/* === COLORES DE FONDO === */
+	--background-color: #ffffff;     /* Fondo premium oscuro */
+	--background-light: #3B1F18;     /* Secciones alternas */
+
+	/* === COLORES DE TEXTO === */
+	--text-light: #D8C3B5;           /* Texto sobre fondo oscuro */
+	--text-muted: #6B3A2E;           /* Texto secundario */
+
+	/* === NEGRO INTENSO === */
+	--dark-color: #0E0705;
 }
 
 html {
